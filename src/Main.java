@@ -8,7 +8,7 @@ public class Main {
 
     public static int turns (int n, int low, int high) {
         int turns = 0;
-// Продолжаем, пока имеется число для угадывания
+        // Продолжаем, пока имеется число для угадывания
         while (high >= low) {
             turns++;
             int mid = (low + high) / 2;
